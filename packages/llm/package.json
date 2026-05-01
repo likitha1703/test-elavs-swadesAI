@@ -1,0 +1,21 @@
+{
+  "name": "@test-evals/llm",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./strategies/zero_shot": "./src/strategies/zero_shot.ts",
+    "./strategies/few_shot": "./src/strategies/few_shot.ts",
+    "./strategies/cot": "./src/strategies/cot.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.55.0",
+    "@test-evals/env": "workspace:*",
+    "@test-evals/shared": "workspace:*",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@test-evals/config": "workspace:*",
+    "@types/bun": "catalog:",
+    "typescript": "catalog:"
+  }
+}

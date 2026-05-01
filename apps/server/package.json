@@ -7,14 +7,21 @@
     "check-types": "tsc -b",
     "compile": "bun build --compile --minify --sourcemap --bytecode ./src/index.ts --outfile server",
     "dev": "bun run --hot src/index.ts",
-    "start": "bun run dist/index.mjs"
+    "start": "bun run dist/index.mjs",
+    "eval": "cd apps/server && bun run src/cli/eval.ts",
+    "test": "bun test src/tests/"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.55.0",
+    "@hono/node-server": "^2.0.1",
     "@test-evals/auth": "workspace:*",
     "@test-evals/db": "workspace:*",
     "@test-evals/env": "workspace:*",
+    "@test-evals/llm": "workspace:*",
+    "@test-evals/shared": "workspace:*",
     "better-auth": "catalog:",
     "dotenv": "catalog:",
+    "drizzle-orm": "^0.45.1",
     "hono": "^4.8.2",
     "zod": "catalog:"
   },

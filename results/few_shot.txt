@@ -1,0 +1,54 @@
+
+🏥 HEALOSBench Eval
+Strategy: few_shot | Model: claude-haiku-4-5-20251001
+────────────────────────────────────────────────────────────
+✓ case_004 — F1: 0.572 — cost: $0.00366
+✓ case_002 — F1: 0.648 — cost: $0.00374
+✓ case_005 — F1: 0.765 — cost: $0.00358
+✓ case_003 — F1: 0.591 — cost: $0.00355
+✓ case_001 — F1: 0.767 — cost: $0.00353
+✓ case_010 — F1: 0.742 — cost: $0.00329
+Rate limited on case_007, waiting 1000ms
+Rate limited on case_006, waiting 1000ms
+Rate limited on case_008, waiting 1000ms
+✓ case_009 — F1: 0.693 — cost: $0.00327
+✓ case_007 — F1: 0.859 — cost: $0.00364
+Rate limited on case_011, waiting 1000ms
+Rate limited on case_008, waiting 2000ms
+Rate limited on case_012, waiting 1000ms
+✓ case_006 — F1: 0.569 — cost: $0.00378
+✓ case_011 — F1: 0.510 — cost: $0.00384
+Rate limited on case_013, waiting 1000ms
+✓ case_008 — F1: 0.783 — cost: $0.00327
+Rate limited on case_014, waiting 1000ms
+Rate limited on case_012, waiting 2000ms
+✓ case_016 — F1: 0.662 — cost: $0.00390
+Rate limited on case_015, waiting 1000ms
+Rate limited on case_013, waiting 2000ms
+✓ case_014 — F1: 0.504 — cost: $0.00363
+✓ case_012 — F1: 0.511 — cost: $0.00363
+✓ case_018 — F1: 0.693 — cost: $0.00440
+Rate limited on case_015, waiting 2000ms
+Rate limited on case_013, waiting 4000ms
+✓ case_019 — F1: 0.935 — cost: $0.00325
+✓ case_017 — F1: 0.337 — cost: $0.00346
+Rate limited on case_020, waiting 1000ms
+Rate limited on case_021, waiting 1000ms
+✓ case_022 — F1: 0.750 — cost: $0.00378
+Rate limited on case_015, waiting 4000ms
+✓ case_020 — F1: 0.749 — cost: $0.00330
+Rate limited on case_023, waiting 1000ms
+✓ case_024 — F1: 0.639 — cost: $0.00338
+✓ case_023 — F1: 0.464 — cost: $0.00353
+Rate limited on case_021, waiting 2000ms
+Rate limited on case_025, waiting 1000ms
+✓ case_026 — F1: 0.537 — cost: $0.00343
+Rate limited on case_027, waiting 1000ms
+✓ case_025 — F1: 0.527 — cost: $0.00334
+Rate limited on case_028, waiting 1000ms
+✓ case_027 — F1: 0.734 — cost: $0.00309
+Rate limited on case_021, waiting 4000ms
+Rate limited on case_029, waiting 1000ms
+✓ case_028 — F1: 0.476 — cost: $0.00338
+Rate limited on case_031, waiting 1000ms
+Rate limited on case_030, waiting 1000ms
