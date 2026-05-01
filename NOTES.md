@@ -133,3 +133,17 @@ by running:
 bun run eval -- --strategy=few_shot
 bun run eval -- --strategy=cot
 ```
+
+## Screenshots
+
+### Runs List
+
+![Runs List](screenshots/runs-list.png)
+
+### Run Detail — Gold vs Predicted
+
+![Run Detail](screenshots/run-detail.png)
+
+### Compare View
+
+![Compare View](screenshots/compare.png)
